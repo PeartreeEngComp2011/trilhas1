@@ -1,0 +1,13 @@
+<script>
+let numero; // Definindo a variável para armazenar o número
+
+// Loop que continua pedindo números até o usuário digitar 5
+while (numero !== 5) {
+    numero = parseInt(prompt("Digite um número:"));
+    // Se você quiser garantir que o valor inserido é um número válido:
+    if (isNaN(numero)) {
+        alert("Por favor, digite um número válido!");
+    }
+}
+alert("Você digitou o número 5, o loop foi finalizado!");
+</script>
